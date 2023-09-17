@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1940px;
+  margin: auto;
+}
+.container .navbar {
+  width: 100%;
+  background-color: brown;
+  background: url(./abstract-particles-glitter-background_1017-32786.jpg) no-repeat;
+  background-size: cover;
+}
+.container .navbar .nest {
+  margin-left: 1300px;
+  padding: 20px;
+}
+.container .navbar .son1 {
+  padding: 5px 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+}
+.container .navbar .son1 .fa-telegram {
+  font-size: 20px;
+  color: #fff;
+}
+.container .navbar .son2 {
+  padding: 5px 10px;
+  border: none;
+  margin-left: 10px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  border-radius: 5px;
+  color: white;
+}
+.container .navbar .son2 .fa-instagram {
+  font-size: 20px;
+}
+.container .navbar .son3 {
+  padding: 5px 10px;
+  border: none;
+  margin-left: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+  border-radius: 5px;
+}
+.container .navbar .son3 .fa-linkedin {
+  font-size: 20px;
+  color: white;
+}
+.container .navbar .son4 {
+  padding: 5px 10px;
+  background-color: rgb(91, 91, 255);
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.container .navbar .son4 .fa-twitter {
+  font-size: 20px;
+  color: #fff;
+}
+.container .boding {
+  width: 100%;
+  background-color: rgb(207, 3, 3);
+  background: url(./abstract-particles-glitter-background_1017-32786.jpg) no-repeat;
+  background-size: cover;
+  height: 560px;
+  justify-content: space-around;
+  display: flex;
+}
+.container .boding .bodi1 {
+  width: 670px;
+  margin-top: 70px;
+}
+.container .boding .bodi1 .bodi1-h2 {
+  font-size: 90px;
+  color: #FEB66A;
+}
+.container .boding .bodi1 .bodi1-p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.container .boding .bodi1 .bodi1-p2 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.container .boding .bodi1 .best {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .boding .bodi1 .best .btn-p {
+  color: #fff;
+  margin-left: 20px;
+}
+.container .boding .bodi1 .best .son5 {
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 218, 166);
+  color: white;
+  background: linear-gradient(0deg, rgb(255, 218, 166) 0%, rgb(254, 216, 135) 35%, rgb(253, 187, 45) 77%);
+}
+.container .boding .bodi1 .best .son6 {
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(137, 137, 137) 0%, rgb(0, 0, 0) 100%);
+}
+.container .boding .bodi2 {
+  margin-top: 50px;
+}
+.container .boding .bodi2 .bodi2-img {
+  width: 800px;
+}
+.container .qorin {
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;
+  padding: 80px;
+  background-color: #0F0100;
+}
+.container .qorin .bu1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .qorin .item1 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .item1 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .item1 .item1-btn .fa-clock {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .item1 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .item1 .item1-p .aziz {
+  color: #FEB66A;
+}
+.container .qorin .item2 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .item2 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .item2 .item1-btn .fa-cloud {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .item2 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .item2 .item1-p .aziz {
+  color: #FEB66A;
+}
+.container .qorin .item3 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .item3 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .item3 .item1-btn .fa-square-poll-vertical {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .item3 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .item3 .item1-p .aziz {
+  color: #FEB66A;
+}
+.container .qorin .bu2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  color: #fff;
+}
+.container .qorin .bu2 .item1 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .bu2 .item1 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .bu2 .item1 .item1-btn .fa-clock {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .bu2 .item1 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .bu2 .item1 .item1-p .aziz {
+  color: #FEB66A;
+}
+.container .qorin .bu2 .item2 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .bu2 .item2 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .bu2 .item2 .item1-btn .fa-cloud {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .bu2 .item2 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .bu2 .item2 .item1-p .aziz {
+  color: #FEB66A;
+}
+.container .qorin .bu2 .item3 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  color: #fff;
+}
+.container .qorin .bu2 .item3 .item1-btn {
+  width: 450px;
+  color: #fff;
+  height: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+.container .qorin .bu2 .item3 .item1-btn .fa-square-poll-vertical {
+  font-size: 60px;
+  margin-left: -30px;
+}
+.container .qorin .bu2 .item3 .item1-p {
+  margin-top: 15px;
+}
+.container .qorin .bu2 .item3 .item1-p .aziz {
+  color: #FEB66A;
+}/*# sourceMappingURL=style.css.map */
